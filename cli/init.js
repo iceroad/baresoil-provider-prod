@@ -23,6 +23,9 @@ function Init(base, args) {
         `Cannot write configuration file "${outputFile}": ${e.message}`);
     return process.exit(1);
   }
+
+  // Run "configure"
+  return base.getCliCommand('configure').impl.call(this, base, args);
 }
 
 module.exports = Init;
