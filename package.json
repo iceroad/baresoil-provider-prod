@@ -1,6 +1,6 @@
 {
   "name": "baresoil-provider-prod",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prod provider for Baresoil Server.",
   "main": "index.js",
   "scripts": {
